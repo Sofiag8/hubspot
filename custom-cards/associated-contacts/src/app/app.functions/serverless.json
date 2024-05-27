@@ -1,0 +1,8 @@
+{
+  "appFunctions": {
+    "fetchAssociatedContacts": {
+      "file": "fetchAssociatedContacts.js",
+      "secrets": ["GRAPHQL_API_URL"]
+    }
+  }
+}

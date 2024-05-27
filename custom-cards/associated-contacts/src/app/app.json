@@ -1,0 +1,25 @@
+{
+  "name": "Send Email Card",
+  "description": "This app powers a custom card for sending email to an account associated contact",
+  "uid": "custom_email_card",
+  "scopes": [
+    "crm.objects.contacts.read",
+    "crm.objects.contacts.write",
+    "collector.graphql_schema.read",
+    "collector.graphql_query.execute",
+    "crm.objects.custom.write",
+    "crm.objects.custom.read",
+    "crm.schemas.custom.read",
+    "crm.schemas.custom.write"
+  ],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/send-email-card.json"
+        }
+      ]
+    }
+  }
+}
